@@ -135,6 +135,7 @@ class DblibPlatform extends SQLServerPlatform
         // add uniqueidentifier
         $this->doctrineTypeMapping['uniqueidentifier'] = 'uniqueidentifier';
         $this->doctrineTypeMapping['date']             = 'date';
+        $this->doctrineTypeMapping['time']             = 'time';
     }
 
     /**
